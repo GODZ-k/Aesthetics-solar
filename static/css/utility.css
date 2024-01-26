@@ -1,0 +1,22 @@
+/* utility classes----------------------------- */
+.flex {
+  display: flex;
+  align-items: center;
+}
+.m-5{
+  margin: 5px;
+}
+.p-5{
+  padding: 5px;
+}
+
+.m-10{
+  margin: 10px;
+}
+.p-10{
+  padding: 10px;
+}
+
+.brd-1{
+  border: solid 1px rgb(128, 23, 23);
+}

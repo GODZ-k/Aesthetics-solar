@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Quicksand:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400&family=Signika+Negative&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/* navbar section----------------- */
+
+#header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    justify-content: space-between;
+    z-index: 999;
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo-part {
+    justify-content: center;
+}
+
+.logo-part .logo {
+    width: 55px;
+    height: 50px;
+}
+
+.logo-part .intro {
+    width: 235px;
+    height: 50px;
+}
+
+#navbar {
+    justify-content: right;
+    height: 100%;
+}
+
+#navbar li {
+    list-style: none;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar li a:hover {
+    width: 100%;
+    color: #FC7E08;
+}
+
+#hamburger {
+    display: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#close {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: none;
+}
+
+
+/* Cover section=------------------------------------------------------- */
+
+.cover-section {
+    background: url(https://images.unsplash.com/photo-1600132806370-bf17e65e942f?q=80&w=1894&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center/cover fixed;
+    filter: contrast(1.3);
+    height: 90vh;
+    width: 100%;
+}
+
+.cover-section-half {
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 100%;
+}
+
+.cover-section-half h1 {
+    font-size: 2rem;
+    color: #FED801;
+    text-align: center;
+}
+
+.cover-section-half p {
+    font-size: 1rem;
+    color: #FED801;
+    text-align: center;
+}
+
+.cover-section-half a {
+    text-decoration: none;
+    border: solid 1px #FED801;
+    border-radius: 5px;
+    color: #FED801;
+}
+
+.cover-section-half a:hover {
+    border: solid 1px #FC7E08;
+    color: #FC7E08;
+}
+
+
+/* intro to company------------------------ */
+
+.intro-box {
+    width: 100%;
+    justify-content: center;
+}
+
+.intro-box-common {
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    width: 30rem;
+}
+
+.intro-box-1 {
+    background-color: #FDE46F;
+}
+
+.intro-box-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* <!-- Achivements section----------------------------------------- --> */
+
+.achivement-box {
+    margin: 10px 0 10px 0;
+    background-image: linear-gradient(to right, #FED801, #FDE46F, #FED801);
+}
+
+.achivemenr-box-head {
+    margin: auto;
+    text-align: center;
+}
+
+.achivemenr-box-head h1 {
+    color: black;
+    font-size: 2rem;
+}
+
+.achivement-box-content {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.achivement-card {
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 35vh;
+    margin: 10px 30px;
+    background-color: #FED801;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.achivement-card:hover {
+    transform: translateY(1px);
+    transition: all ease 0.2s;
+    box-shadow: 0px 3px 15px black;
+}
+
+.achivement-card i {
+    font-size: 4rem;
+}
+
+.achivement-card h4 {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.achivement-card p {
+    color: black;
+    font: 1rem;
+}
+
+
+/* <!-- Services section-------------------------------------------- --> */
+
+.services {
+    width: 100%;
+    background-image: linear-gradient(to right, #d9d8cf, #828178, #d9d8cf);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.services a {
+    text-decoration: none;
+}
+
+.service-head {
+    text-align: center;
+}
+
+.service-head h1 {
+    color: black;
+    font-size: 2rem;
+}
+
+.service-card {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.service-card-1 {
+    background: url(https://images.unsplash.com/photo-1611365892117-00ac5ef43c90?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center/cover;
+}
+
+.service-card-2 {
+    background: url(https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center/cover;
+}
+
+.service-card-3 {
+    background: url(https://images.unsplash.com/photo-1590966237968-8ef11924362d?q=80&w=2052&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center/cover;
+}
+
+.bottom-para {
+    height: 50%;
+    background-image: linear-gradient(to right, #FED801, #FDE46F, #FED801);
+    transform: translateY(150px);
+    border-radius: 5px;
+    transition: all ease-in-out 0.3s;
+    justify-content: flex-start;
+}
+
+.service-card:hover .bottom-para {
+    transform: translateY(30px);
+}
+
+.service-card h1 {
+    color: black;
+    font-size: 2rem;
+}
+
+.service-card p {
+    color: black;
+    font-size: 1rem;
+}
+
+
+/* contact us section----------------- */
+
+.contact-container {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    background: url(/media/solar\ sales\ proposal.png) no-repeat center/cover fixed;
+    text-align: center;
+}
+
+.contact-container h1 {
+    color: black;
+}
+
+.contact-container h3 a {
+    border: solid 1px #FED801;
+    text-decoration: none;
+    color: #FED801;
+    border-radius: 5px;
+}
+
+.contact-container h3 a:hover {
+    border: solid 1px #FC7E08;
+    color: #FC7E08;
+}
+
+
+/* footer section------------------------------ */
+
+
+/* ---------------------------------------------------------------- */
+
+.footer {
+    background-color: #2d2d2d;
+    justify-content: space-evenly;
+}
+
+.footer-section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin: 30px 10px;
+}
+
+.column-common {
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.column-common h2 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.column-common h3 {
+    font-size: 1rem;
+    color: #828178;
+}
+
+.column-common h3 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+
+.column-common ul {
+    list-style: none;
+}
+
+.column-common ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.column-common a:hover {
+    color: #FC7E08;
+    text-decoration: underline;
+}
+
+.column-3 {
+    width: 300px;
+}
+
+.contact-footer-info h3 {
+    padding: 5px;
+}
+
+.column-4 {
+    height: 100%;
+    justify-content: center;
+    margin: 20px 5px;
+}
+
+.column-4 .footer-logo {
+    height: 115px;
+    width: 130px;
+}
+
+.column-4 .footer-intro-name {
+    width: 185px;
+    height: 45px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    border-top: solid 0.1px black;
+    background-color: #2d2d2d;
+}
+
+.copyright h1 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+}

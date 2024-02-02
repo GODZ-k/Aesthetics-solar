@@ -1,0 +1,135 @@
+.banner {
+  background: url(https://images.unsplash.com/photo-1611926653458-09294b3142bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center/cover;
+}
+
+/* contact form/============================================================================== */
+
+.contact-container-external {
+  width: 100%;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.contact-info-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  height: max-content;
+  width: 20rem;
+  height: 90vh;
+  border-radius: 5px 0px 0px 5px;
+  background-image: linear-gradient(to bottom right, #d9d8cf, #828178, #828178, #d9d8cf);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.532);
+}
+
+.info-box {
+  margin: 10px 5px;
+}
+
+.info-box h3 {
+  font-size: 1rem;
+  color: black;
+}
+
+.info-box h3 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+.info-box h3 a:hover {
+  color: #FC7E08;
+  text-decoration: underline;
+}
+
+.info-box-head i {
+  font-size: 2.5rem;
+}
+
+.info-box-head h1 {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.info-box a {
+  text-decoration: none;
+  color: #1e3050;
+}
+
+.contact-form-container-internal {
+  background-color: #fff;
+  width: 40rem;
+  height: 90vh;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.532);
+  border-radius: 0px 5px 5px 0;
+}
+
+.contact-form-container-internal h1 {
+  color: black;
+  font-size: 2.5rem;
+  margin: 10px 5px;
+  padding: 20px;
+}
+
+.contact-form {
+  display: block;
+  margin: auto;
+  width: 95%;
+}
+
+.contact-form p {
+  margin-top: 10px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.contact-form .common-input {
+  border: none;
+  border-bottom: 0.1px solid #000000;
+  width: 100%;
+  background: transparent;
+  color: black;
+  outline: none;
+}
+
+#message {
+  height: 100px;
+}
+
+.contact-form .common-input:active .contact-form P {
+  color: #FC7E08;
+}
+
+.contact-form .common-input:focus {
+  border: none;
+  background: transparent;
+  border-bottom: #FC7E08 solid 0.3px;
+}
+
+.contact-form .submit-btn {
+  font-size: 1.2rem;
+  color: black;
+  border: solid 2px black;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.contact-form .submit-btn:hover {
+  border: solid 2px #FC7E08;
+  color: #FC7E08;
+}
+
+/* maps section------------------------------------------------------------ */
+
+.maps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.maps iframe {
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.532);
+}

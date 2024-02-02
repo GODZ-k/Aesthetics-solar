@@ -1,14 +1,14 @@
 <header class="flex" id="header">
     <div class="logo-part flex">
-        <img class="logo m-5 p-5" src="/static/media/logo.png" alt="" />
-        <img class="intro m-5 p-5" src="/static/media/intro-name.png" alt="" />
+        <img class="logo m-5 p-5" src="/media/logo.png" alt="" />
+        <img class="intro m-5 p-5" src="/media/intro-name.png" alt="" />
     </div>
     <ul id="navbar" class="navbar flex">
         <li class="m-10 p-5">
-            <a href="Home.html" class="active">Home</a>
+            <a href="{% url 'home' %}" class="active">Home</a>
         </li>
         <li class="m-10 p-5">
-            <a href="About.html">Services</a>
+            <a href="{% url 'services' %}">Services</a>
         </li>
         <li class="m-10 p-5">
             <a href="About.html">Process</a>
@@ -17,7 +17,7 @@
             <a href="Services.html">About</a>
         </li>
         <li class="m-10 p-5">
-            <a href="Contact Us.html">Contact</a>
+            <a href="{% url 'contact' %}">Contact</a>
         </li>
         <a href="#" id="close">
             <i class="far fa-times"></i>

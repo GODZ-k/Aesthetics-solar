@@ -38,7 +38,7 @@
     </div>
     <div class="contact-form-container-internal">
       <h1>Get In Touch With Us :</h1>
-      <form method="post">
+      <form action="{% url 'home' %}" method="post">
         {% csrf_token %}
           <div class="contact-form">
               <p class="p-5">Full name:</p><input class="p-5 common-input" type="text" id="fullname" name="name"><br>

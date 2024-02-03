@@ -6,7 +6,7 @@ from core.models import *
 def home(request):
 
    # customer contact detail --------------------------------
-    # save_detail(request)
+    save_detail(request)
 
     return render(request, 'index.html')
 

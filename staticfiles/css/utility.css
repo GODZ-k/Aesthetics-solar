@@ -144,7 +144,7 @@ html {
     justify-content: center;
     width: 100%;
     height: 50vh;
-    background: url(/static/media/solar\ sales\ proposal.png) no-repeat center/cover fixed;
+    background: url(/media/solar\ sales\ proposal.png) no-repeat center/cover fixed;
     text-align: center;
 }
 
@@ -166,9 +166,6 @@ html {
 
 
 /* footer section------------------------------ */
-
-
-/* ---------------------------------------------------------------- */
 
 .footer {
     background-color: #2d2d2d;

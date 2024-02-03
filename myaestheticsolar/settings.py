@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-t&vvhdj5npvgxn8u4ia419=e^w-ed+)%*opfc*c0n4kdgm6a%+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['54.206.213.196', 'www.myaestheticsolar.com', 'aestheticsoalr.com']
+ALLOWED_HOSTS = ['54.206.213.196', 'www.myaestheticsolar.com', 'aestheticsolar.com','127.0.0.1']
 
 
 # Application definition

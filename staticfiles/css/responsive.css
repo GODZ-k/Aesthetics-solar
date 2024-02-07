@@ -1,273 +1,248 @@
-/* navbar anf footer are responsive ------------------------------------------------------------------------------------------------- */
+        /* navbar anf footer are responsive ------------------------------------------------------------------------------------------------- */
+    /* for all pages this is utility responsie css */
 
+    @media (max-width: 875px) {
+        #hamburger {
+            display: block;
+            position: absolute;
+            right: 40px;
+        }
+        #hamburger i {
+            position: relative;
+        }
+        #navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            right: -350px;
+            top: -10px;
+            z-index: 100;
+            height: 110vh;
+            background-color: #ffff;
+            position: fixed;
+            width: 320px;
+            transition: 0.4s;
+            padding: 108px 0 0 30px;
+            overflow-y: scroll;
+            box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+        }
+        #navbar.active {
+            right: -20px;
+        }
+        #navbar li {
+            margin-bottom: 30px;
+        }
+        #navbar li a {
+            font-size: 1rem;
+            color: black;
+        }
+        #navbar #close {
+            display: block;
+        }
+        #close {
+            position: absolute;
+            top: 30px;
+            left: 50px;
+            font-size: 18px;
+        }
+    }
 
-/* for all pages this is utility responsie css */
+    @media(max-width:550px) {
+        .footer {
+            flex-direction: column;
+        }
+    }
 
-@media (max-width: 875px) {
-    #hamburger {
-        display: block;
-        position: absolute;
-        right: 40px;
+    @media(max-width:400px) {
+        .logo-part .logo {
+            display: none;
+        }
+        .logo-part .intro {
+            width: 215px;
+            height: 45px;
+        }
     }
-    #hamburger i {
-        position: relative;
-    }
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        right: -350px;
-        top: -10px;
-        z-index: 100;
-        height: 110vh;
-        background-color: #ffff;
-        position: fixed;
-        width: 320px;
-        transition: 0.4s;
-        padding: 108px 0 0 30px;
-        overflow-y: scroll;
-        box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
-    }
-    #navbar.active {
-        right: -20px;
-    }
-    #navbar li {
-        margin-bottom: 30px;
-    }
-    #navbar li a {
-        font-size: 1rem;
-        color: black;
-    }
-    #navbar #close {
-        display: block;
-    }
-    #close {
-        position: absolute;
-        top: 30px;
-        left: 50px;
-        font-size: 18px;
-    }
-}
 
-@media(max-width:550px) {
-    .footer {
-        flex-direction: column;
+    @media(max-width:815px) {
+        .intro-box {
+            flex-direction: column;
+        }
     }
-}
 
-@media(max-width:400px) {
-    .logo-part .logo {
-        display: none;
+    @media(max-width:500px) {
+        .cover-section-half {
+            width: 100%;
+        }
+        .intro-box-common {
+            height: auto;
+            width: 100%;
+        }
     }
-    .logo-part .intro {
-        width: 215px;
-        height: 45px;
-    }
-}
 
-@media(max-width:815px) {
-    .intro-box {
-        flex-direction: column;
+    @media(max-width:375px) {
+        .service-card {
+            width: 250px;
+            height: 250px;
+        }
+        .footer-section-1 {
+            margin: 30px 0px;
+        }
+        .column-common {
+            margin: 20px 0;
+        }
     }
-}
 
-@media(max-width:500px) {
-    .cover-section-half {
-        width: 100%;
+    @media(max-width:680px) {
+        .developer-info {
+            flex-direction: column;
+        }
+        .dev-1 {
+            border-right: none;
+        }
     }
-    .intro-box-common {
-        height: auto;
-        width: 100%;
+    /* ----------------------------------------------------------------------------------------------------------/ */
+    /* universal banner------------------------------------------------------------------------------- */
+
+    @media (max-width:460px) {
+        .banner {
+            height: 50vh;
+        }
+        .banner-head h1 {
+            font-size: 2rem;
+        }
     }
-}
+    /* service page css================================================================================== */
 
-@media(max-width:375px) {
-    .service-card {
-        width: 250px;
-        height: 250px;
-    }
-    .footer-section-1 {
-        margin: 30px 0px;
-    }
-    .column-common {
-        margin: 20px 0;
-    }
-}
-
-@media(max-width:680px) {
-    .developer-info {
-        flex-direction: column;
-    }
-    .dev-1 {
-        border-right: none;
-    }
-}
-
-
-/* ----------------------------------------------------------------------------------------------------------/ */
-
-
-/* universal banner------------------------------------------------------------------------------- */
-
-@media (max-width:460px) {
-    .banner {
-        height: 50vh;
-    }
-    .banner-head h1 {
-        font-size: 2rem;
-    }
-}
-
-
-/* service page css================================================================================== */
-
-@media (max-width:885px) {
-    .service-row-common {
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-    }
-    .service-para {
-        border-radius: 10px 10px 0 0;
-    }
-    .service-img {
-        border-radius: 0 0px 10px 10px;
-    }
-}
-
-@media (max-width:430px) {
-    .service-para {
-        width: 95%;
-        display: block;
-        margin: auto;
-    }
-    .service-img {
-        width: 95%;
-    }
-}
-
-
-/* contact page css--=============================================================================*/
-
-@media (max-width:740px) {
-    .contact-content-box {
-        flex-direction: column;
-    }
-    .contact-info-container {
-        width: 100%;
-        height: 100%;
-        /* margin: 10px 0; */
-    }
-    .contact-form-container-internal {
-        width: 90%;
-        margin: 10px 0;
-        height: auto;
-        border-radius: 5px;
-    }
-    .contact-form-container-internal h1 {
-        font-size: 1.5rem;
-    }
-}
-
-
-/* about page css====================================================================== */
-
-@media (max-width:1060px) {
-    .story-box-1 {
-        width: 100%;
-    }
-}
-
-@media (max-width:650px) {
-    .story-box-2 {
-        width: 100%;
-        height: 50vh;
-    }
-}
-
-
-/* processs page css========================================================
+    @media (max-width:885px) {
+        .service-row-common {
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+        }
+        .service-para {
+            border-radius: 10px 10px 0 0;
+        }
+        .service-img {
+            border-radius: 0 0px 10px 10px;
+        }
+        .our-specialization {
+            width: 90%;
+        }
+        @media (max-width:430px) {
+            .service-para {
+                width: 95%;
+                display: block;
+                margin: auto;
+            }
+            .service-img {
+                width: 95%;
+            }
+            .our-specialization {
+                width: 100%;
+            }
+        }
+        /* contact page css--=============================================================================*/
+        @media (max-width:740px) {
+            .contact-content-box {
+                flex-direction: column;
+            }
+            .contact-info-container {
+                width: 100%;
+                height: 100%;
+                /* margin: 10px 0; */
+            }
+            .contact-form-container-internal {
+                width: 90%;
+                margin: 10px 0;
+                height: auto;
+                border-radius: 5px;
+            }
+            .contact-form-container-internal h1 {
+                font-size: 1.5rem;
+            }
+        }
+        /* about page css====================================================================== */
+        @media (max-width:1060px) {
+            .story-box-1 {
+                width: 100%;
+            }
+        }
+        @media (max-width:650px) {
+            .story-box-2 {
+                width: 100%;
+                height: 50vh;
+            }
+        }
+        /* processs page css========================================================
 
 */
-
-@media (max-width:965px) {
-    .solar-design-process {
-        width: 90%;
-    }
-    .solar-design-process img {
-        width: 100%;
-    }
-    .team-management-process {
-        width: 90%;
-    }
-    .team-management-process img {
-        width: 100%;
-    }
-}
-
-@media (max-width:530px) {
-    .team-management-process img {
-        height: 35vh;
-    }
-    .solar-design-process img {
-        height: 35vh;
-    }
-}
-
-
-/* /* portfolio page section======================================================================== */
-
-@media (max-width:980px) {
-    .residential-head-container {
-        width: 100%;
-    }
-}
-
-@media(max-width:700px) {
-    .Image-gallery-container .gallery .img {
-        height: 40vh;
-        width: 15%;
-        border-radius: 5px;
-    }
-    .Image-gallery-container .gallery .remove {
-        display: none;
-    }
-}
-
-@media(max-width:465px) {
-    .Image-gallery-container .gallery .img {
-        height: 30vh;
-        width: 18%;
-    }
-}
-
-
-/* service details page section==============================================================
+        @media (max-width:965px) {
+            .solar-design-process {
+                width: 90%;
+            }
+            .solar-design-process img {
+                width: 100%;
+            }
+            .team-management-process {
+                width: 90%;
+            }
+            .team-management-process img {
+                width: 100%;
+            }
+        }
+        @media (max-width:530px) {
+            .team-management-process img {
+                height: 35vh;
+            }
+            .solar-design-process img {
+                height: 35vh;
+            }
+        }
+        /* /* portfolio page section======================================================================== */
+        @media (max-width:980px) {
+            .residential-head-container {
+                width: 100%;
+            }
+        }
+        @media(max-width:700px) {
+            .Image-gallery-container .gallery .img {
+                height: 40vh;
+                width: 15%;
+                border-radius: 5px;
+            }
+            .Image-gallery-container .gallery .remove {
+                display: none;
+            }
+        }
+        @media(max-width:465px) {
+            .Image-gallery-container .gallery .img {
+                height: 30vh;
+                width: 18%;
+            }
+        }
+        /* service details page section==============================================================
  */
-
-@media(max-width:975px) {
-    .service-details-head {
-        width: 100%;
-    }
-    .service-details-info {
-        width: 100%;
-    }
-}
-
-@media(max-width:450px) {
-    .service-img-shade h1 {
-        font-size: 2rem;
-    }
-    .service-img-shade p {
-        font-size: 1.1rem;
-    }
-}
-
-@media(max-width:430px) {
-    .service-img {
-        width: 100vw;
-        height: 40vh;
-    }
-}
+        @media(max-width:975px) {
+            .service-details-head {
+                width: 100%;
+            }
+            .service-details-info {
+                width: 100%;
+            }
+        }
+        @media(max-width:450px) {
+            .service-img-shade h1 {
+                font-size: 2rem;
+            }
+            .service-img-shade p {
+                font-size: 1.1rem;
+            }
+        }
+        @media(max-width:430px) {
+            .service-img {
+                width: 100vw;
+                height: 40vh;
+            }
+        }

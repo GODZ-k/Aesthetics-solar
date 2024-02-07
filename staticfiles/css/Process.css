@@ -1,0 +1,40 @@
+.process-content-container{
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.process-content-container h1{
+  font-size: 1.7rem;
+  column-rule: black;
+}
+.process-content-container h3{
+  font-size: 1.3rem;
+  column-rule: black;
+}
+.process-content-container p{
+  font-size: 1rem;
+  column-rule: black;
+}
+
+.solar-design-process{
+  width: 60rem;
+  margin: 20px 0;
+}
+
+.solar-design-process img{
+  width: 60rem;
+  height: 75vh;
+  margin: 20px 0;
+}
+
+.team-management-process{
+  width: 60rem;
+  margin: 20px 0;
+}
+
+.team-management-process img{
+  width: 60rem;
+  height: 75vh;
+  margin: 20px 0;
+}

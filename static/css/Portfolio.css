@@ -1,0 +1,181 @@
+.project-overview-container {
+    width: 100%;
+    justify-content: center;
+    background-image: linear-gradient(to right, #d9d8cf, #828178, #d9d8cf);
+    margin: 20px 0;
+}
+
+.project-overview {
+    width: 60rem;
+    margin: 20px 0;
+}
+
+.project-overview h1 {
+    color: black;
+    font-size: 1.7rem;
+}
+
+.project-overview p {
+    color: black;
+    font-size: 1rem;
+}
+
+
+/* resiidential project section=================================================*/
+
+.Project-content-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.residential-project-container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.residential-head-container {
+    width: 60rem;
+    text-align: left;
+}
+
+.residential-head-container h1 {
+    font-size: 1.7rem;
+    color: black;
+}
+
+.residential-head-container h3 {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.residential-head-container p {
+    font-size: 1rem;
+    color: black;
+}
+
+.Image-gallery-container {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.Image-gallery-container .gallery {
+    width: 100%;
+    justify-content: flex-start;
+    margin: 10px 0;
+    background-image: linear-gradient(to right, #d9d8cf, #828178, #d9d8cf);
+}
+
+
+/* .Image-gallery-container .gallery .img {
+  width: 10%;
+  height: 65vh;
+  border-radius: 50px;
+  position: relative;
+  margin: 20px 10px;
+  transition: width ease 0.4s;
+  border: solid 3px #FC7E08;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.532);
+} */
+
+.Image-gallery-container .gallery .img {
+    width: 11%;
+    height: 60vh;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px 10px;
+    transition: width ease 0.4s;
+    border: solid 1px #918b85;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.532);
+}
+
+.Image-gallery-container .gallery .img:hover {
+    width: 50%;
+}
+
+.Image-gallery-container .gallery .img-1 {
+    background: url(/media/residential1.jpg) center/cover no-repeat;
+}
+
+.Image-gallery-container .gallery .img-2 {
+    background: url(/media/residential2.jpg) center/cover no-repeat;
+}
+
+.Image-gallery-container .gallery .img-3 {
+    background: url(/media/residencial3.jpg) center/cover no-repeat;
+}
+
+.Image-gallery-container .gallery .img-4 {
+    background: url(/media/residential4.jpg) center/cover no-repeat;
+}
+
+.Image-gallery-container .gallery .img-5 {
+    background: url(/media/residential5.jpg) center/cover no-repeat;
+}
+
+.Image-gallery-container .gallery .img-6 {
+    background: url(/media/residential6.jpg) center/cover no-repeat;
+}
+
+
+/* second residential imagae .gallery==================================================================== */
+
+.Image-gallery-container .gallery-2 {
+    justify-content: flex-end;
+}
+
+.img-box-1 {
+    background: url(/media/box1.png) center/cover no-repeat;
+}
+
+.img-box-2 {
+    background: url(/media/box2.jpg) center/cover no-repeat;
+}
+
+.img-box-3 {
+    background: url(/media/box3.png) center/cover no-repeat;
+}
+
+.img-box-4 {
+    background: url(/media/box4.png) center/cover no-repeat;
+}
+
+.img-box-5 {
+    background: url(/media/box5.jpg) center/cover no-repeat;
+}
+
+.img-box-6 {
+    background: url(/media/box6.png) center/cover no-repeat;
+}
+
+
+/* Third residential imagae .gallery==================================================================== */
+
+.Image-gallery-container .gallery-3 {
+    justify-content: flex-start;
+}
+
+.img-com-1 {
+    background: url(/media/comr1.jpg) center/cover no-repeat;
+}
+
+.img-com-2 {
+    background: url(/media/comr2.png) center/cover no-repeat;
+}
+
+.img-com-3 {
+    background: url(/media/comr3.png) center/cover no-repeat;
+}
+
+.img-com-4 {
+    background: url(/media/comr4.png) center/cover no-repeat;
+}
+
+.img-com-5 {
+    background: url(/media/comr5.png) center/cover no-repeat;
+}
+
+.img-com-6 {
+    background: url(/media/comr6.png) center/cover no-repeat;
+}

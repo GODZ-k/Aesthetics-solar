@@ -1,13 +1,12 @@
-/* banner--------------------------------------------------------------------------- */
-.banner {
-  background: url(https://images.unsplash.com/photo-1491357492920-d2979986a84e?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center/cover;
-}
-
 .intro-to-service {
+  justify-content: center;
   width: 100%;
   background-image: linear-gradient(to right, #d9d8cf, #828178, #d9d8cf);
   margin: 20px 0;
   text-align: center;
+}
+.our-specialization{
+  width: 60%;
 }
 
 .intro-to-service h1 {
@@ -51,7 +50,7 @@
   text-align: center;
   width: 400px;
   height: 300px;
-  background-image: linear-gradient(to right, #d9d8cf, #828178, #d9d8cf);
+  background-image: linear-gradient(to bottom right, #d9d8cf, #828178, #d9d8cf);
   border-radius: 10px 0 0 10px;
 }
 

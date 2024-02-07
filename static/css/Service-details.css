@@ -1,0 +1,71 @@
+/* <!-- service-details-overviev==============================--> */
+
+.service-details-head-box {
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #FDE46F;
+}
+
+.service-details-head {
+  width: 60rem;
+  text-align: center;
+}
+
+
+
+/* solar Sales Proposals section================================================================================== */
+
+.service-details-container {
+  width: 100%;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.service-img {
+  width: 100%;
+  height: 60vh;
+}
+
+.service-img-shade {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #00000096, #00000096);
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.service-img-shade h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.service-img-shade p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.service-details-info-box{
+  width: 100%;
+  margin: 20px 0;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.service-details-info{
+  width: 60rem;
+  margin-right: 10px 00;
+}
+
+
+.service-details-info-box h1{
+  font-size: 1.5rem;
+  color: black;
+}
+
+.service-details-info-box p{
+  font-size: 1rem;
+  color: black;
+}

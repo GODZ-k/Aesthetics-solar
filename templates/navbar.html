@@ -1,29 +1,32 @@
 <header class="flex" id="header">
     <div class="logo-part flex">
-        <img class="logo m-5 p-5" src="/media/logo.png" alt="" />
-        <img class="intro m-5 p-5" src="/media/intro-name.png" alt="" />
+      <img class="logo m-5 p-5" src="/media/logo.png" alt="logo" style="cursor: pointer;" onclick="window.location.href='{% url 'home' %}'" />
+      <img class="intro m-5 p-5" src="/media/intro-name.png" style="cursor: pointer;" alt="Aesthetic solar" onclick="window.location.href='{% url 'home' %}'" />
     </div>
     <ul id="navbar" class="navbar flex">
-        <li class="m-10 p-5">
-            <a href="{% url 'home' %}" class="active">Home</a>
-        </li>
-        <li class="m-10 p-5">
-            <a href="{% url 'services' %}">Services</a>
-        </li>
-        <li class="m-10 p-5">
-            <a href="About.html">Process</a>
-        </li>
-        <li class="m-10 p-5">
-            <a href="Services.html">About</a>
-        </li>
-        <li class="m-10 p-5">
-            <a href="{% url 'contact' %}">Contact</a>
-        </li>
-        <a href="#" id="close">
-            <i class="far fa-times"></i>
-        </a>
+      <li class="m-10 p-5">
+        <a href="{% url 'home' %}" class="active">Home</a>
+      </li>
+      <li class="m-10 p-5">
+        <a href="{% url 'services' %}">Services</a>
+      </li>
+      <li class="m-10 p-5">
+        <a href="{% url 'process' %}">Process</a>
+      </li>
+      <li class="m-10 p-5">
+        <a href="{% url 'portfolio' %}">Portfolio</a>
+      </li>
+      <li class="m-10 p-5">
+        <a href="{% url 'about' %}">About</a>
+      </li>
+      <li class="m-10 p-5">
+        <a href="{% url 'contact' %}">Contact</a>
+      </li>
+      <a href="#" id="close">
+        <i class="far fa-times"></i>
+      </a>
     </ul>
     <div id="hamburger">
-        <i id="bar" class="far fa-outdent"></i>
+      <i id="bar" class="far fa-outdent"></i>
     </div>
-</header>
+  </header>

@@ -39,29 +39,6 @@
   color: #FC7E08;
 }
 
-/* intro to company------------------------ */
-
-.intro-box {
-  width: 100%;
-  justify-content: center;
-}
-
-.intro-box-common {
-  flex-direction: column;
-  justify-content: center;
-  height: 80vh;
-  width: 30rem;
-}
-
-.intro-box-1 {
-  background-color: #FDE46F;
-}
-
-.intro-box-2 img {
-  width: 100%;
-  height: 100%;
-}
-
 /* <!-- Achivements section----------------------------------------- --> */
 
 .achivement-box {
@@ -183,3 +160,12 @@
   color: black;
   font-size: 1rem;
 }
+
+/* home contact from section-----------------------------------------------
+ */
+
+ .home-contact-form{
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0;
+ }

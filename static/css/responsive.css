@@ -21,13 +21,14 @@
     top: -10px;
     z-index: 100;
     height: 110vh;
-    background-color: #ffffff;
+    background-color: #ffff;
     position: fixed;
     width: 320px;
     transition: 0.4s;
     padding: 108px 0 0 30px;
     overflow-y: scroll;
     box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+
   }
 
   #navbar.active {
@@ -110,10 +111,11 @@
 
 }
 
-@media(max-width:680px){
-  .developer-info{
+@media(max-width:680px) {
+  .developer-info {
     flex-direction: column;
   }
+
   .dev-1 {
     border-right: none;
   }
@@ -168,26 +170,136 @@
 
 /* contact page css--=============================================================================*/
 
-@media (max-width:690px){
-  .contact-container-external{
+@media (max-width:740px) {
+  .contact-content-box {
     flex-direction: column;
   }
 
-  .contact-info-container{
-    border-radius: 5px;
-    width: 90%;
+  .contact-info-container {
+    width: 100%;
+    height: 100%;
     margin: 10px 0;
   }
-  
-  .contact-form-container-internal{
+
+  .contact-form-container-internal {
     width: 90%;
     margin: 10px 0;
     height: auto;
     border-radius: 5px;
   }
 
-  .contact-form-container-internal h1{
+  .contact-form-container-internal h1 {
     font-size: 1.5rem;
   }
 
+}
+
+/* about page css====================================================================== */
+
+@media (max-width:1060px) {
+  .story-box-1 {
+    width: 100%;
+  }
+}
+
+@media (max-width:650px) {
+  .story-box-2 {
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+/* processs page css========================================================
+
+*/
+@media (max-width:965px) {
+  .solar-design-process {
+    width: 90%;
+  }
+
+  .solar-design-process img {
+    width: 100%;
+  }
+
+  .team-management-process {
+    width: 90%;
+  }
+
+  .team-management-process img {
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width:530px) {
+
+  .team-management-process img {
+    height: 35vh;
+  }
+
+  .solar-design-process img {
+    height: 35vh;
+  }
+
+}
+
+
+/* /* portfolio page section======================================================================== */
+
+@media (max-width:980px) {
+
+  .residential-head-container {
+    width: 100%;
+  }
+}
+
+@media(max-width:700px) {
+  .Image-gallery-container .gallery .img {
+    height: 40vh;
+    width: 15%;
+    border-radius: 5px;
+  }
+
+  .Image-gallery-container .gallery .remove {
+    display: none;
+  }
+}
+
+@media(max-width:465px) {
+  .Image-gallery-container .gallery .img {
+    height: 30vh;
+    width: 18%;
+  }
+}
+
+/* service details page section==============================================================
+ */
+
+@media(max-width:975px) {
+  .service-details-head {
+    width: 100%;
+  }
+
+  .service-details-info {
+    width: 100%;
+  }
+
+}
+
+@media(max-width:450px) {
+  .service-img-shade h1 {
+    font-size: 2rem;
+  }
+
+  .service-img-shade p {
+    font-size: 1.1rem;
+  }
+}
+
+@media(max-width:430px) {
+  .service-img {
+    width: 100vw;
+    height: 40vh;
+  }
 }

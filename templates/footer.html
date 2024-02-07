@@ -3,27 +3,30 @@
         <div class="column-1 column-common flex">
             <h2 class="m-5 p-5">NAVIGATION</h2>
             <ul>
-                <li class="m-5 p-5"><a href="">Home</a></li>
-                <li class="m-5 p-5"><a href="">Services</a></li>
-                <li class="m-5 p-5"><a href="">Process</a></li>
-                <li class="m-5 p-5"><a href="">About</a></li>
-                <li class="m-5 p-5"><a href="">Contact</a></li>
+                <li class="m-5 p-5"><a href="{% url 'home' %}">Home</a></li>
+                <li class="m-5 p-5"><a href="{% url 'services' %}">Services</a></li>
+                <li class="m-5 p-5"><a href="{% url 'process' %}">Process</a></li>
+                <li class="m-5 p-5"><a href="{% url 'about' %}">About</a></li>
+                <li class="m-5 p-5"><a href="{% url 'contact' %}">Contact</a></li>
             </ul>
         </div>
         <div class="column-2 column-common flex">
             <h2 class="m-5 p-5">OTHERE LINKS</h2>
             <ul>
-                <li class="m-5 p-5"><a href="">Community</a></li>
-                <li class="m-5 p-5"><a href="">Join Us</a></li>
-                <li class="m-5 p-5"><a href="">Prtfolio</a></li>
+                <li class="m-5 p-5"><a href="{% url 'service_detail' %}">Engineering PE Stamps</a></li>
+                <li class="m-5 p-5"><a href="https://www.linkedin.com/in/aesthetic-solar-4948b72b0/" target="_blank">Join
+          Us</a></li>
+                <li class="m-5 p-5"><a href="{% url 'portfolio' %}">Portfolio</a></li>
+                <li class="m-5 p-5"><a href="{% url 'home' %}">Web Developers</a></li>
             </ul>
         </div>
         <div class="column-3 column-common flex">
             <h2 class="m-5 p-5">CONTACT</h2>
             <div class="contact-footer-info">
-                <h3>Address: <a href="https://maps.app.goo.gl/DSfwguAsY2qvo5eR8" target="_blank" class="m-5 p-5">B 57, Pocket B, Okhla Phase I, Okhla Industrial Estate, New Delhi, Delhi 110020</a></h3>
+                <h3>Address: <a href="https://maps.app.goo.gl/DSfwguAsY2qvo5eR8" target="_blank" class="m-5 p-5">B 57, Pocket
+          B, Okhla Phase I, Okhla Industrial Estate, New Delhi, Delhi 110020</a></h3>
                 <h3>phone: <a href="tel:+91-6395143497" class="m-5 p-5">+91-6395143497</a></h3>
-                <h3>Emails: <a href="mailto:contact@aestheticsolar.com" class="m-5 p-5">contact@aestheticsolar.com</a>
+                <h3>Emails: <a href="mailto:info@aestheticsolar.com" class="m-5 p-5">info@aestheticsolar.com</a>
                     <br>
                     <a href="mailto:support@aestheticsolar.com">support@aestheticsolar.com</a>
                 </h3>
@@ -31,18 +34,9 @@
         </div>
     </div>
     <div class="column-4 column-common flex">
-        <img class="footer-logo m-5 p-5" src="/media/logo.png" alt="">
-        <img class="footer-intro-name m-5 p-5" src="/media/intro-name.png" alt="">
+        <img class="footer-logo m-5 p-5" src="/media/logo.png" style="cursor: pointer;" onclick="window.location.href='{% url 'home' %}'" alt="logo">
+        <img class="footer-intro-name m-5 p-5" src="/media/intro-name.png"  style="cursor: pointer;"onclick="window.location.href='{% url 'home' %}'" alt="Aesthetic solar">
     </div>
 </footer>
 
-
-  <!-- developer section---------------------------------------------------------------------------------- -->
-
 {% include 'dev.html' %}
-
-<div class="copyright">
-    <h1 class="p-5">Aesthetic Solar @ All Rights Reserved</h1>
-</div>
-
-

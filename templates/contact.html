@@ -3,8 +3,11 @@
 {% block start %}
 
 
+
   <!-- banner section---------------------------------------------- -->
-  <section class="banner" id="banner">
+  <section class="banner"
+    style="background: url(https://images.unsplash.com/photo-1611926653458-09294b3142bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center/cover;"
+    id="banner">
     <aside class="shade">
       <div class="banner-container">
         <div class="banner-head">
@@ -17,7 +20,51 @@
   </section>
 
   <!-- contact form--------------------------------------------------------- -->
-  {% include 'contact_form.html' %}
+  <div class="contact-container-external flex">
+    <div class="contact-content-box flex">
+      <div class="contact-info-container">
+        <div class="info-box">
+          <div class="info-box-head flex">
+            <i class="fad fa-headset m-5 p-5" style="--fa-primary-color: #FC7E08; --fa-secondary-color: #FC7E08;"></i>
+            <h1 class="p-5 m-5">Call Us</h1>
+          </div>
+          <h3 class="p-5 m-5"><a class="m-5 p-5" href="tel:+91-6395143497">+91-6395143497</a></h3>
+        </div>
+        <div class="info-box">
+          <div class="info-box-head flex">
+            <i class="fad fa-map-marker-alt m-5 p-5"
+              style="--fa-primary-color: #FC7E08; --fa-secondary-color: #FC7E08;"></i>
+            <h1 class="m-5 p-5">Address</h1>
+          </div>
+          <h3 class="m-5 p-5"><a class="m-5 p-5" href="https://maps.app.goo.gl/DSfwguAsY2qvo5eR8" target="_blank"
+              class="m-5 p-5">B 57, Pocket B, Okhla
+              Phase I, Okhla Industrial Estate, New Delhi, Delhi 110020</a></h3>
+        </div>
+        <div class="info-box">
+          <div class="info-box-head flex">
+            <i class="fal fa-envelope m-5 p-5" style="color: #FC7E08;"></i>
+            <h1 class="m-5 p-5">Mail Us</h1>
+          </div>
+          <h3 class="m-5 p-5"><a class="m-5 p-5" class="m-5 p-5" href="mailto:info@aestheticsolar.com"
+              class="m-5 p-5">info@aestheticsolar.com</a>
+            <br>
+            <a href="mailto:support@aestheticsolar.com">support@aestheticsolar.com</a>
+          </h3>
+        </div>
+        <div class="info-box">
+          <div class="info-box-head">
+            <h1 class="p-5 m-5">follow us on:</h1>
+          </div>
+          <a href="https://www.linkedin.com/in/aesthetic-solar-4948b72b0/" target="_blank"><i
+              class="fab fa-linkedin p-5 m-5" style=" font-size: 2.5rem;"></i></a>
+        </div>
+      </div>
+
+      <!-- contact form -->
+ {% include 'contact_form.html' %}
+    </div>
+  </div>
+
   <!-- maps section============================================== -->
   <center class="maps">
     <iframe
@@ -25,7 +72,6 @@
       width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </center>
-
 
 
 {% endblock start %}

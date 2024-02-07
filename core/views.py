@@ -20,7 +20,18 @@ def services(request):
     return render(request, 'service.html')
 
 
+def about(request):
+    return render(request, 'about.html')
 
+
+def portfolio(request):
+    return render(request, 'portfolio.html')
+
+def process(request):
+    return render(request, 'process.html')
+
+def service_detail(request):
+    return render(request, 'service_detail.html')
 # customer contact detail --------------------------------
 
 def save_detail(request):

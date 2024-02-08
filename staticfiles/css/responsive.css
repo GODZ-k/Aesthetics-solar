@@ -124,7 +124,7 @@
             .service-para {
                 border-radius: 10px 10px 0 0;
             }
-            .service-img {
+            .service-img-1 {
                 border-radius: 0 0px 10px 10px;
             }
             .our-specialization {
@@ -136,7 +136,7 @@
                     display: block;
                     margin: auto;
                 }
-                .service-img {
+                .service-img-1 {
                     width: 95%;
                 }
                 .our-specialization {

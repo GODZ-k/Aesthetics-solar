@@ -1,8 +1,8 @@
 // navbar section -----------------------------------
 
-var bar = document.getElementById("bar");
-var close = document.getElementById("close");
-var nav = document.getElementById("navbar");
+let bar = document.getElementById("bar");
+let close = document.getElementById("close");
+let nav = document.getElementById("navbar");
 if (bar) {
     bar.addEventListener("click", () => {
         nav.classList.add("active");

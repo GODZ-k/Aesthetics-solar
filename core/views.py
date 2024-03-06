@@ -34,15 +34,30 @@ def service_detail(request):
     return render(request, 'service_detail.html')
 # customer contact detail --------------------------------
 
+def pe_stamp(request):
+    return render(request, 'pe-stamp.html')
+
+def solar_permit(request):
+    return render(request, 'solar-permit-design.html')
+
+def solar_sales(request):
+    return render(request, 'solar-sales-proposal.html')
+
 def save_detail(request):
     if request.method == 'POST':
-        name=request.POST.get('name')
-        email=request.POST.get('email')
-        phone=request.POST.get('phone')
-        subject=request.POST.get('subject')
-        message=request.POST.get('message')
+        try:
+          name=request.POST.get('name')
+          email=request.POST.get('email')
+          phone=request.POST.get('phone')
+          subject=request.POST.get('subject')
+          message=request.POST.get('message')
 
-        user_form = user_data(name=name, email=email, phone=phone, subject=subject, message=message)
-        user_form.save()
+          user_form = user_data(name=name, email=email, phone=phone, subject=subject, message=message)
+          user_form.save()
+
+        except Exception as e:
+
+             print(e)
+
 
         return redirect("/contact/")

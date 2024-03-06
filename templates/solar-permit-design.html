@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+
+{% block start %}
+
+
+
+
+  <!-- service-details-overviev==============================-->
+  <div class="service-details-head-box flex">
+    <div class="service-details-head">
+      <h1 class="m-5 p-5">We Provide ..</h1>
+      <p class="m-5 p-5">At Aesthetic Solar, we're committed to providing comprehensive solar solutions that combine functionality, innovation, and aesthetics. Here's a glimpse of what we offer:</p>
+      <ul class="m-5 p-10">
+        <li class="m-5 p-5">CAD Services</li>
+        <li class="m-5 p-5">Solar PV Array Design</li>
+        <li class="m-5 p-5">Solar Permit Design Services</li>
+        <li class="m-5 p-5">Engineering PE Stamps</li>
+        <li class="m-5 p-5">Solar Sales Proposals</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- solar design services section----------------------------------------------------------------------------------------------- -->
+  <div class="service-details-container" id="solar-permit-design">
+    <div class="solar-details-img service-img"
+      style="background: url(https://media.licdn.com/dms/image/C4E03AQF9QnN3KXTnAw/profile-displayphoto-shrink_800_800/0/1611858409391?e=2147483647&v=beta&t=b9scGO2OjA18-V8y_e0JMHcBLs504JgrK4yj6xs1q7s)center/cover fixed;">
+      <div class="service-img-shade flex">
+        <h1 class="p-5 m-5">Solar Permit Design Services</h1>
+        <p class="p-5 m-5">Ready to Make Sustainable Design</p>
+      </div>
+    </div>
+    <div class="service-details-info-box flex">
+      <div class="service-details-info">
+        <h1 class="m-5 p-5">Solar Permit Design Service</h1>
+        <p class="m-5 p-5">At Aesthetic Solar, we offer comprehensive solar permit design services to streamline the process of obtaining permits for solar pannels.</p>
+        <p class="m-5 p-5">We have good experience in designing residential and commercial solar systems. In this sector we provide a variety of services from sales to interconnection. We have good in-depth knowledge of National Electric Codes, AHJ and utility requirements Home Owner Association (HOA) requirements. our team is well versed with various codes and compliances.</p>
+        <hr>
+        <h1 class="m-5 p-5">Permit Plan Sets by Aesthetic Solar:</h1>
+        <p class="m-5 p-5">Navigating the permit process for solar projects can be complex and time-consuming. At Aesthetic Solar, we offer comprehensive Permit Plan Sets to streamline the process and ensure compliance with local regulations and building codes.</p>
+        <h4 class="p-5 m-5">Site Plan:</h4>
+        <p class="p-5 m-5">Detailed site layout showing the location of the solar design, inverters, and other components relative to existing structures, property lines, and utilities.</p>
+        <h4 class="p-5 m-5">Electrical Diagrams:</h4>
+        <p class="p-5 m-5">Clear and concise diagrams illustrating the electrical wiring and configuration of the solar system, including connections to the main electrical panel and utility grid.</p>
+        <h4 class="p-5 m-5">Structural Drawings:</h4>
+        <p class="p-5 m-5">Structural drawings detailing the mounting system and attachment methods for the solar designs, ensuring stability and safety in accordance with building codes.</p>
+        <h4 class="p-5 m-5">Wind and Snow Load Calculations:</h4>
+        <p class="p-5 m-5">Calculations demonstrating the structural integrity of the solar array under various wind and snow load conditions, providing assurance of safety and reliability.</p>
+
+        <hr>
+        <h1 class="m-5 p-5">Scope of Work:</h1>
+        <hr>
+        <ul class="m-5 p-10">
+          <li class="m-5 p-5">Solar Permit Design Service</li>
+          <li class="m-5 p-5">System Design</li>
+          <li class="m-5 p-5">Engineering Calculations</li>
+          <li class="m-5 p-5">Permit Drawings</li>
+          <li class="m-5 p-5">Final Approval Support:</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="service-details-head-box flex">
+    <div class="service-details-head">
+      <h1 class="m-5 p-5">Othere Services We Provide ..</h1>
+      <p class="m-5 p-5">At Aesthetic Solar, we're providing some othere solar solutions.</p>
+      <p class="m-5 p-5">Here are some additional services Aesthetic Solar could offer:</p>
+      <div class="othere-service-buttons-container flex">
+        <h4 class="m-5 p-5"><a href="{% url 'solar_sales' %}" class="m-5 p-5">Solar Sales Proposals</a></h4>
+        <h4 class="m-5 p-5"><a href="{% url 'pe_stamp' %}" class="m-5 p-5">PE Stamps</a></h4>
+      </div>
+    </div>
+  </div>
+
+{% endblock start %}

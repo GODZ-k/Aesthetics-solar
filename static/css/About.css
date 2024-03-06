@@ -21,7 +21,10 @@
   font-size: 1.5rem;
   color: black;
 }
-
+.story-box-1 h3 {
+  font-size: 1.2rem;
+  color: black;
+}
 .story-box-1 p {
   font-size: 1rem;
   color: black;
@@ -49,12 +52,16 @@
 .about-company-container {
   width: 100%;
   justify-content: center;
-  margin: 10px 0;
+  margin: 20px 0;
+}
+
+.about-company-intro-1 {
+  background-image: linear-gradient(to bottom right, #d9d8cf, #828178, #d9d8cf);
 }
 
 .about-company {
-  width: 60%;
-  margin: 10px 0;
+  width: 60rem;
+  margin: 20px 0;
 }
 
 .about-company h1 {
@@ -65,6 +72,28 @@
 .about-company p {
   font-size: 1rem;
   color: black;
+}
+.about-company ul li {
+  font-size: 1.1rem;
+  color: black;
+}
+.about-company ul li:hover {
+  font-size: 1rem;
+  text-decoration: underline;
+  color: #FC7E08;
+}
+
+.about-company h4 a {
+  border: solid 2px black;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+.about-company h4 a:hover{
+  border: solid 2px #FC7E08;
+  color: #FC7E08;
 }
 
 .about-company .sub {

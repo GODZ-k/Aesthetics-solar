@@ -1,83 +1,114 @@
 .intro-to-service {
-    justify-content: center;
-    width: 100%;
-    background-image: linear-gradient(to right, #d9d8cf, #828178, #d9d8cf);
-    margin: 20px 0;
-    text-align: center;
+  justify-content: center;
+  width: 100%;
+  background-image: linear-gradient(to right, #d9d8cf, #828178, #d9d8cf);
+  margin: 20px 0;
+  text-align: left;
 }
-
-.our-specialization {
-    width: 60%;
+.our-specialization{
+  width: 60rem;
+  margin: 10px 0;
 }
 
 .intro-to-service h1 {
-    font-size: 2rem;
-    color: black;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.intro-to-service h4 {
+  font-size: 1.1rem;
+  color: black;
+}
+.intro-to-service h4 a{
+  border: black solid 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 400;
+}
+.intro-to-service h4 a:hover{
+  border: #FC7E08 solid 2px;
+  color: #FC7E08;
+}
+.intro-to-service h1 {
+  font-size: 2rem;
+  color: black;
 }
 
 .intro-to-service p {
-    font-size: 1rem;
-    color: black;
+  font-size: 1rem;
+  color: black;
 }
 
+.intro-to-service ul li {
+  font-size: 1rem;
+  color: black;
+}
+.intro-to-service ul li:hover {
+  color: #FC7E08;
+  text-decoration: underline;
+}
 
 /* service cards--------------------------------------------------------- */
 
 .main-service {
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    background: url(https://images.unsplash.com/flagged/photo-1566838634698-48b165cb0a9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center/cover fixed;
-    margin: 20px 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  background: url(https://images.unsplash.com/flagged/photo-1566838634698-48b165cb0a9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center/cover fixed;
+  margin: 20px 0;
 }
 
 .service-row-common {
-    justify-content: flex-start;
-    width: 90%;
-    margin: 25px 0;
+  justify-content: flex-start;
+  width: 90%;
+  margin: 25px 0;
 }
 
 .service-row-common a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
+
 .service-row-2 {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .service-para {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    width: 400px;
-    height: 300px;
-    background-image: linear-gradient(to bottom right, #d9d8cf, #828178, #d9d8cf);
-    border-radius: 10px 0 0 10px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  background-image: linear-gradient(to bottom right, #d9d8cf, #828178, #d9d8cf);
+  border-radius: 10px 0 0 10px;
 }
 
 .service-para h1 {
-    color: black;
-    font-size: 1.5rem;
+  color: black;
+  font-size: 1.5rem;
 }
 
 .service-para p {
-    color: black;
-    font-size: 1rem;
+  color: black;
+  font-size: 1rem;
 }
 
-.service-img-1 {
-    width: 400px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 0 10px 10px 0;
+.service-img1 {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 0 10px 10px 0;
 }
 
-.service-img-1 img {
-    width: 100%;
-    height: 100%;
-    transition: all ease-in-out 0.3s;
+.service-img1 img {
+  width: 100%;
+  height: 100%;
+  transition: all ease-in-out 0.3s;
 }
 
-.service-img-1 img:hover {
-    transform: scale(1.1);
+.service-img1 img:hover {
+  transform: scale(1.1);
 }

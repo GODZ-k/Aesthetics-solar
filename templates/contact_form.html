@@ -2,12 +2,12 @@
     <h1>Get In Touch With Us :</h1>
     <form class="contact-form" method="post" action="{% url 'home' %}">
       {% csrf_token %}
-      <p class="p-5">Full name:</p><input class="p-5 common-input" name="name" type="text" id="fullname"><br>
-      <p class=" p-5">Email:</p><input class="p-5 common-input" type="email" name="email" id="email"><br>
-      <p class=" p-5">Phone:</p> <input class="p-5 common-input" name="phone" type="number" id="Phone"><br>
-      <p class=" p-5">Subject:</p><input class="p-5 common-input" name="subject" type="text" id="subject"><br>
+      <p class="p-5">Full name:</p><input class="p-5 common-input" name="name" type="text" id="fullname" required><br>
+      <p class=" p-5">Email:</p><input class="p-5 common-input" type="email" name="email" id="email" required><br>
+      <p class=" p-5">Phone:</p> <input class="p-5 common-input" name="phone" type="number" id="Phone" required><br>
+      <p class=" p-5">Subject:</p><input class="p-5 common-input" name="subject" type="text" id="subject" required><br>
       <p class=" p-5">Message:</p><textarea class="p-5 common-input" name="message" id="message" cols="30"
-        rows="10"></textarea><br>
+        rows="10" required></textarea><br>
       <button class="m-10 p-5 submit-btn" type="submit">Submit</button>
     </form>
   </div>

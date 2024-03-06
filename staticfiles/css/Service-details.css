@@ -13,6 +13,50 @@
   text-align: center;
 }
 
+.service-details-head h1 {
+  color: black;
+  font-size: 1.7rem;
+}
+
+.service-details-head p {
+  color: black;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.service-details-head ul li {
+  color: black;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.service-details-head ul li:hover {
+  color: #FC7E08;
+  text-decoration: underline;
+}
+
+.othere-service-buttons-container{
+  margin: 10px 0;
+}
+
+.othere-service-buttons-container h4 {
+  font-size: 1.1rem;
+  color: black;
+}
+.othere-service-buttons-container h4 a{
+  border: black solid 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 400;
+}
+.othere-service-buttons-container h4 a:hover{
+  border: #FC7E08 solid 2px;
+  color: #FC7E08;
+}
+
+
 
 
 /* solar Sales Proposals section================================================================================== */
@@ -47,25 +91,37 @@
   font-size: 1.5rem;
 }
 
-.service-details-info-box{
+.service-details-info-box {
   width: 100%;
   margin: 20px 0;
   justify-content: center;
   flex-direction: column;
 }
 
-.service-details-info{
+.service-details-info {
   width: 60rem;
   margin-right: 10px 00;
 }
 
 
-.service-details-info-box h1{
+.service-details-info-box h1 {
   font-size: 1.5rem;
   color: black;
 }
+.service-details-info-box h4 {
+  font-size: 1.2rem;
+  color: black;
+}
 
-.service-details-info-box p{
+.service-details-info-box p {
   font-size: 1rem;
   color: black;
+}
+.service-details-info-box ul li {
+  font-size: 1.1rem;
+  color: black;
+}
+.service-details-info-box ul li:hover {
+  color: #FC7E08;
+  text-decoration: underline;
 }

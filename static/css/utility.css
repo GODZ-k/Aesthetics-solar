@@ -23,6 +23,14 @@ html {
     align-items: center;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
 .m-5 {
     margin: 5px;
 }
@@ -151,6 +159,43 @@ html {
     width: 30rem;
 }
 
+.intro-box-common h1 {
+    font-size: 1.7rem;
+    color: black;
+}
+
+.intro-box-common p {
+    font-size: 1rem;
+    color: black;
+}
+
+.intro-box-common ul {
+    text-align: left;
+}
+
+.intro-box-common ul li {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.intro-box-common ul li:hover {
+    color: #FC7E08;
+    text-decoration: underline;
+}
+
+.intro-box-common .service-button a {
+    font-size: 1rem;
+    border: solid 2px black;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.intro-box-common .service-button a:hover {
+    color: #FC7E08;
+    border: 2px solid #FC7E08;
+}
+
 .intro-box-1 {
     background-color: #FDE46F;
 }
@@ -168,12 +213,12 @@ html {
     justify-content: center;
     width: 100%;
     height: 50vh;
-    background: url(/media/solar\ sales\ proposal.png) no-repeat center/cover fixed;
+    background: url(https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center/cover fixed;
     text-align: center;
 }
 
 .contact-container h1 {
-    color: black;
+    color: #FC7E08;
 }
 
 .contact-container h3 a {
@@ -354,13 +399,13 @@ html {
     border-radius: 5px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.532);
     overflow: hidden;
-    margin: 20px 5px;
+    margin: 20px 0px;
 }
 
 .contact-info-container {
     flex-direction: column;
     justify-content: flex-start;
-    height: 90vh;
+    height: 100vh;
     width: 30%;
     background-image: linear-gradient(to bottom right, #d9d8cf, #828178, #828178, #d9d8cf);
 }
@@ -402,7 +447,7 @@ html {
 .contact-form-container-internal {
     background-color: #ffff;
     width: 70%;
-    height: 90vh;
+    height: 100vh;
 }
 
 .contact-form-container-internal h1 {
@@ -434,12 +479,13 @@ html {
     border: none;
     border-bottom: 0.1px solid #000000;
     width: 100%;
+    height: 25px;
     background: transparent;
     color: black;
     outline: none;
 }
 
-#message {
+.contact-form #message {
     height: 100px;
 }
 
